@@ -1,0 +1,95 @@
+
+.navbarelement{
+    font-size: 0.7em;
+    color: #272727
+}
+.navbar{
+    font-size: 16px;
+    font-weight:900; 
+    color:black
+}
+
+
+
+@media only screen and (max-width: 1500px) {
+    .Navbar1{
+        background-color: #f6d014;
+        height:2.8rem;
+       }
+       
+        .Navbar2{
+            height:4.6rem; 
+            background-color:#272727; 
+            z-index: 9;
+        }
+       
+      } 
+  
+    
+       @media only screen and (max-width: 992px) {
+        .Navbar1{
+            background-color: #f6d014;
+            height:2.8rem;
+            display: none;
+           }
+           
+        .Navbar2{
+            height:4.6rem; 
+            background-color:#272727; 
+            z-index: 9;
+        }
+           
+      }
+    
+  
+     @media only screen and (max-width: 768px) {
+        .Navbar1{
+            background-color: #f6d014;
+            height:2.8rem;
+            display: none;
+           }
+           
+        .Navbar2{
+            height:4.6rem; 
+            background-color:#272727; 
+            z-index: 9;
+            /* margin:5rem */
+        }
+           
+      } 
+    
+    
+      @media only screen and (max-width: 700px) {
+        .Navbar1{
+            background-color: #f6d014;
+            height:2.8rem;
+            display: none;
+           }
+           
+        .Navbar2{
+            height:4.6rem; 
+            background-color:#272727; 
+            z-index: 9;
+            margin-bottom:3rem
+        }
+           
+      }
+    
+    
+      @media only screen and (max-width: 400px) {
+        .Navbar1{
+            background-color: #f6d014;
+            height:2.8rem;
+            display: none;
+            margin:5rem
+           }
+           
+    .Navbar2{
+      height:4.6rem; 
+       background-color:#272727; 
+       z-index: 9;
+       margin:5rem
+    }
+           
+      } 
+

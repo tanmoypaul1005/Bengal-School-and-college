@@ -1,0 +1,314 @@
+<body id="myCopyright">
+    {/* <div id="paid_me"><b>PAID<br></br>WIDGETS</b></div> */}
+    <div class="bg"></div>
+    <div class="main" align="center">
+
+        <img class="pf" src={teacher.profilePicture} />
+        <div class="contain">
+            <div class="i_space"></div>
+
+            <h2 class="title">{teacher.name}</h2>
+
+            <p class="summary">
+                <tag></tag>{teacher.position}
+            </p>
+
+            {/* <a style="display:inline-block;" class="btn" href="https://google.com/maps/" title="Maps" alt="Maps"
+                target="_blank">
+                <i class="fa fa-map-marker cbn" aria-hidden="true"></i>
+            </a>
+
+            <a style="display:inline-block;" class="btn" href="mailto:iyoexperiment@gmail.com" title="Gmail" alt="Gmail"
+                target="_blank">
+                <i class="fa fa-envelope-o cbn" aria-hidden="true"></i>
+            </a> */}
+        </div>
+        <div class="contain_2">
+            <div class="row">
+
+                <div class="column">
+                    <div class="i_contain">
+                        <div class="i_cards">
+                            <img class="icon_logo" title="Facebook" alt="Facebook"
+                                src="https://icollector.000webhostapp.com/widget/profile/images/logo/facebook.png" />
+                            <h2 class="i_title">Facebook</h2>
+
+                            <p class="i_summary">https://facebook.com/iexperimen</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="i_contain">
+                        <div class="i_cards">
+                            <img class="icon_logo" title="Twitter" alt="Twitter"
+                                src="https://icollector.000webhostapp.com/widget/profile/images/logo/twitter.png" />
+                            <h2 class="i_title">Twitter</h2>
+
+                            <p class="i_summary">https://twitter.com/iexperimen</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="column">
+                    <div class="i_contain">
+                        <div class="i_cards">
+                            <img class="icon_logo" title="Instagram" alt="Instagram"
+                                src="https://icollector.000webhostapp.com/widget/profile/images/logo/instagram.jpeg" />
+                            <h2 class="i_title">Instagram</h2>
+
+                            <p class="i_summary">https://instagram.com/official.iexperiment</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="i_contain">
+                        <div class="i_cards">
+                            <img class="icon_logo" title="Github" alt="Github"
+                                src="https://icollector.000webhostapp.com/widget/profile/images/logo/github.png" />
+                            <h2 class="i_title">Github</h2>
+
+                            <p class="i_summary">https://github.com/iexperimen</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="column">
+                    <div class="i_contain">
+                        <div class="i_cards">
+                            <img class="icon_logo" title="Codepen" alt="Codepen"
+                                src="https://icollector.000webhostapp.com/widget/profile/images/logo/codepen.webp" />
+                            <h2 class="i_title">Codepen</h2>
+
+                            <p class="i_summary">https://codepen.io/iexperimen</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="i_contain">
+                        <div class="i_cards">
+                            <img class="icon_logo" title="iCollector" alt="iCollector"
+                                src="https://icollector.000webhostapp.com/widget/profile/images/logo/browser.png" />
+                            <h2 class="i_title">iCollector</h2>
+                            <p class="i_summary">https://bit.ly/iExperiment.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer>
+            {/* <p>Powered by <a style="display:inline-block;" title="iExperiment" alt="iExperiment"
+                    href="https://iexperimen.github.io"><b>@iExperimen</b></a></p> */}
+        </footer>
+    </div>
+</body>
+
+
+
+
+
+
+
+
+
+
+* {
+box-sizing: border-box;
+}
+body {
+width: 100%;
+background: #fafafa;
+margin: 0px;
+font-family: "Courier New", Courier, monospace;
+padding: 0px;
+}
+h1, h2, h3, h4, h5, p {
+padding: 0px;
+margin: 0px;
+}
+.bg {
+background-image: url('https://icollector.000webhostapp.com/widget/profile/images/mybg.png');
+background-position: center;
+background-size: 100% 360px;
+background-repeat: no-repeat;
+width: 100%;
+height: 360px;
+}
+.pf {
+width: 150px;
+height: 150px;
+border-radius: 50%;
+z-index: 1;
+}
+.main {
+width: 100%;
+margin-top: -200px;
+margin-bottom: 10px;
+}
+.contain {
+width: 80%;
+background: white;
+border-radius: 20px;
+padding: 20px;
+box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+margin-top: -80px;
+margin-bottom: 20px;
+}
+.title {
+padding: 10px;
+}
+.summary {
+text-align: center;
+width: 60%;
+padding: 8px;
+margin-bottom: 10px;
+}
+.btn {
+width: 60px;
+background-color: transparent;
+border: 1px solid #333;
+border-radius: 10px;
+color: #333;
+padding: 10px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 18px;
+transition-duration: 0.4s;
+cursor: pointer;
+}
+.btn:hover {
+background-color: #222;
+color: white;
+}
+.contain_2 {
+width: 80%;
+border-radius: 20px;
+margin-bottom: 20px;
+}
+.column {
+float: left;
+width: 50%;
+padding: 20px 5px 10px 15px;
+}
+.row:after {
+content: "";
+display: table;
+clear: both;
+}
+.i_contain {
+width: 100%;
+transition-duration: 0.4s;
+cursor: pointer;
+}
+.icon_logo {
+width: 64px;
+height: 64px;
+border-radius: 10px;
+float: left;
+z-index: 1;
+margin-top: -22px;
+margin-left: -25px;
+transition-duration: 0.4s;
+border: 1px solid #ccc;
+background-color: black;
+}
+.i_cards {
+width: 100%;
+height: 90px;
+background: white;
+border-radius: 20px;
+padding: 8px 8px 8px 14px;
+text-align: left;
+box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+float: left;
+}
+.i_title {
+margin-top: 10px;
+margin-left: 55px;
+margin-right: 4px;
+}
+.i_summary {
+margin-left: 55px;
+overflow: hidden;
+margin-right: 4px;
+}
+.i_contain:hover .icon_logo {
+margin-top: 4px;
+}
+footer {
+padding: 30px;
+color: block;
+background: white;
+border-top: 1px solid #ccc;
+}
+footer a {
+text-decoration: none;
+color: black;
+}
+.i_space {
+width: 100%;
+height: 70px;
+}
+@media only screen and (max-width: 600px) {
+.bg {
+height: 260px;
+background-size: cover;
+}
+.main {
+margin-top: -140px;
+}
+.pf {
+width: 120px;
+height: 120px;
+}
+.contain {
+width: 85%;
+margin-top: -60px;
+}
+.summary {
+width: 80%;
+}
+.contain_2 {
+width: 85%;
+}
+.column {
+width: 100%;
+}
+.i_space {
+height: 50px;
+}
+}
+
+#paid_me {
+position: fixed;
+top: -10px;
+right: -55px;
+background-image: linear-gradient(to bottom right, yellow, red);
+padding: 18px 55px;
+-ms-transform: rotate(40deg);
+transform: rotate(40deg);
+text-align: center;
+color: white;
+font-size: 20px;
+text-shadow: 1px 1px #000, -1px 1px #000, 1px -1px #000, -1px -1px #000, 1px 1px 5px #555;
+animation: blinking 2s infinite;
+cursor: pointer;
+}
+
+@keyframes blinking {
+0% {
+color: white;
+}
+47% {
+color: #ffdebb;
+}
+62% {
+color: #ffbb73;
+}
+97% {
+color: #fb9932;
+}
+100% {
+color: #fb8402;
+}
+}

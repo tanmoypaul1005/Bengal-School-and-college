@@ -1,0 +1,13 @@
+.deparmentName{
+    color: rgb(88, 145, 9);
+    font-size: 2.5rem;
+    border: 1px solid white;
+    padding:9px;
+    background-color:blanchedalmond;
+    margin:3rem;
+    height:20rem
+}
+
+.department{
+    margin:3rem;
+}

@@ -1,0 +1,58 @@
+    @media only screen and (max-width: 1500px) {
+  .bannerimage{
+    width:1370px;
+    height:460px;
+    }
+    .bannertitle{
+        font-weight: 1000;
+         color: rgb(247, 239, 246)
+    }
+    } 
+
+  
+     @media only screen and (max-width: 992px) {
+   .bannerimage{
+        width:900px;
+        height:300px;
+     }
+     .bannertitle{
+        font-weight: 1000;
+         color: rgb(247, 239, 246)
+    }
+    }
+  
+
+   @media only screen and (max-width: 768px) {
+    .bannerimage{
+        width:720px;
+        height:280px;
+    }
+    .bannertitle{
+        font-weight: 1000;
+         color: rgb(247, 239, 246)
+    }
+    } 
+  
+  
+    @media only screen and (max-width: 700px) {
+        .bannerimage{
+            width:520px;
+            height:220px;
+        }
+        .bannertitle{
+            font-weight: 1000;
+            color: rgb(247, 239, 246)
+        }
+    }
+  
+  
+    @media only screen and (max-width: 400px) {
+        .bannerimage{
+            width:420px;
+            height:220px;
+        }
+        .bannertitle{
+            font-weight: 1000;
+         color: rgb(247, 239, 246)
+        }
+    } 

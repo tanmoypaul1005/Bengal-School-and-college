@@ -1,0 +1,94 @@
+.ClassLectureHeader{
+    height:15rem;
+    margin:1.5rem 0rem 01rem 9rem;
+    margin-right: 4rem; 
+    border-radius: 1%;
+    background-image: url("https://gstatic.com/classroom/themes/img_backtoschool.jpg");
+    padding-right: 2rem;
+}
+
+.bodytext{
+    font-family: "Google Sans",Roboto,Arial,sans-serif;
+    font-size: 1.7rem;
+    font-weight: 500;
+    line-height: 2.75rem;
+    color: #fff;
+
+}
+
+.Aopndd{
+    background-color: #fff;
+    border: 0.0625rem solid #dadce0;
+    -webkit-border-radius: 0.5rem;
+    border-radius: 0.5rem;
+    overflow: hidden;
+    padding: 2rem;
+    margin-left: 15rem;
+    margin-right: 15rem;
+    margin-top: 2rem;
+}
+
+.name{
+    letter-spacing: .01785714em;
+    font-family: "Google Sans",Roboto,Arial,sans-serif;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.25rem;
+    color: #3c4043;
+
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    display: block;
+}
+
+
+
+
+
+
+
+.heading {
+    color: #666666;
+    text-align: center;
+}
+.comment {
+  width: 520px;
+  margin-top: 20px;
+}
+.button-group {
+  margin-bottom: 20px;
+}
+.counter {
+  display: inline;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-right: 10px;
+}
+.posts {
+  clear: both;
+  list-style: none;
+  padding-left: 0;
+  width: 100%;
+  text-align: left;
+}
+.posts li {
+  background-color: #fff;
+  border: 1.5px solid #d8d8d8;
+  border-radius: 10px;
+  padding-top: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  word-wrap: break-word;
+  min-height: 42px;
+  box-shadow:8px 8px 5px #888888;
+}
+.btn-primary {
+    color: #fff;
+    background-color: #337ab7;
+    border-color: #2e6da4;
+    padding: 0.7rem;
+    margin-top:3rem;
+}
